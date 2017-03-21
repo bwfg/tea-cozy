@@ -9,6 +9,8 @@ body {
 
 .page-content {
   padding-top: 70px;
+  align-items: center;
+  justify-content: center;
 }
 
 /*HEADER AREA*/
@@ -56,6 +58,25 @@ nav a {
   background-color: black;
   width: 100%;
   margin: auto;
+}
+
+/*TEA OF THE MONTH AREA*/
+.teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  padding: 0px 600px;
+}
+
+.teabox {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.teabox img {
+  height: 200px;
+  width: 300px;
 }
 
 
