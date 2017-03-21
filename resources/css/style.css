@@ -7,6 +7,10 @@ body {
   text-align: center;
 }
 
+.page-content {
+  padding-top: 70px;
+}
+
 /*HEADER AREA*/
 header {
   display: flex;
@@ -15,7 +19,9 @@ header {
   align-items: center;
   height: 69px;
   position: fixed;
+  background-color: black;
   border-bottom: 1px solid seashell;
+  z-index: 10;
 }
 
 nav a {
@@ -24,7 +30,6 @@ nav a {
 }
 
 .logo {
-  display: block;
   padding-left: 10px;
 }
 
@@ -38,16 +43,34 @@ nav a {
 .hero-image {
   display: flex;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-repeat: no-repeat;
   height: 700px;
   width: 1200px;
-  padding-top: 70px;
   justify-content: center;
   align-content: center;
+  margin: auto;
 }
 
 .hero-content {
   display: block;
   background-color: black;
   width: 100%;
-  height: 150px;
+  margin: auto;
+}
+
+
+/*FOOTER AREA*/
+.footer {
+  height: 200px;
+  text-align: center;
+}
+
+.footer a {
+  color: seashell;
+  text-decoration: none;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
 }
